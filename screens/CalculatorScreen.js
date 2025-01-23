@@ -16,7 +16,7 @@ export default function CalculatorScreen() {
 
   const handleCalculate = () => {
     try {
-      // Evaluate the expression entered by the user
+      
       setResult(eval(input));
     } catch (e) {
       setResult('Error');
