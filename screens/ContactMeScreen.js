@@ -9,7 +9,7 @@ export default function ContactMeScreen() {
 
       {/* Profile Image */}
       <Image
-        source={require('../assets/profile.jpg')} // Update with your profile image path
+        source={require('../assets/profile.jpg')} 
         style={styles.profileImage}
       />
 
@@ -54,8 +54,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f0f0f0', // Slightly off-white background for a softer look
-    padding: 20,
+    backgroundColor: '#f0f0f0', 
   },
   heading: {
     fontSize: 32, // Bigger heading for prominence
@@ -70,7 +69,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     borderWidth: 4,
     borderColor: '#ddd',
-    shadowColor: '#000', // Shadow to make the profile image stand out
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     shadowRadius: 10,
@@ -88,7 +87,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     flexWrap: 'wrap',
-    marginBottom: 20, // Add space below the icons
+    marginBottom: 20, 
   },
   iconWrapper: {
     justifyContent: 'center',
