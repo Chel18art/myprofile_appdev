@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native'; 
 import { MaterialIcons } from '@expo/vector-icons';
-import { Picker } from '@react-native-picker/picker'; // Updated import for Picker
+import { Picker } from '@react-native-picker/picker'; 
 
 export default function TimerScreen() {
   const [timeLeft, setTimeLeft] = useState(0); // Time left in seconds
