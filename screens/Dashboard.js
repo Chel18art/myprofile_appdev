@@ -1,11 +1,11 @@
 import React, { useLayoutEffect } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';  // Importing icons
+import { Ionicons } from '@expo/vector-icons';  // Import icons
 
 export default function Dashboard({ navigation }) {
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: '',  // This will remove the header title
+      headerTitle: '',  
     });
   }, [navigation]);
 
