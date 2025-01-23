@@ -4,8 +4,8 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 export default function AboutMeScreen({ navigation }) {
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: '', // Removes the title
-      headerLeft: () => null, // Removes the back button
+      headerTitle: '', 
+      headerLeft: () => null,
     });
   }, [navigation]);
 
