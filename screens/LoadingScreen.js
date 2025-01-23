@@ -5,7 +5,7 @@ export default function LoadingScreen({ navigation }) {
   const [magnifyingState, setMagnifyingState] = useState([false, false, false, false, false]);
 
   const handleStartNow = () => {
-    // Trigger the appearance of magnifying glasses one by one from right to left
+   
     let index = 4; // Start from the last glass (rightmost)
     const interval = setInterval(() => {
       if (index >= 0) {
@@ -48,7 +48,7 @@ export default function LoadingScreen({ navigation }) {
               </Animated.View>
             );
           }
-          return null; // Don't render anything if this magnifying glass hasn't appeared yet
+          return null; 
         })}
       </View>
     </View>
@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
   },
   magnifyingContainer: {
     position: 'absolute',
-    bottom: 20, // Place the magnifying glasses at the bottom of the screen
-    flexDirection: 'row-reverse', // Align the glasses from right to left
+    bottom: 20, 
+    flexDirection: 'row-reverse', 
   },
   magnifyingGlass: {
     marginHorizontal: 5,
